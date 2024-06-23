@@ -176,19 +176,19 @@
     background-size: cover;
     filter: brightness(90%);
     color: white;
-    position: relative; /* Ensure the footer is a positioned container */
-    z-index: 1; /* Ensure footer content is above background image */
+    position: relative; 
+    z-index: 1; 
   }
   
   .contact-info,
   .shortcuts {
-    flex: 1 1 45%; /* Adjust width as needed */
+    flex: 1 1 45%; 
     text-align: center;
   }
   
   .footer-heading {
     font-family: 'Lato', sans-serif;
-    font-size: 1.5rem; /* 150% of the default font size */
+    font-size: 1.5rem; 
     margin-bottom: 10px;
   }
   
@@ -199,7 +199,7 @@
   }
   
   .footer-link:hover {
-    color: #e0b0ff; /* Light purple color on hover */
+    color: #e0b0ff; 
   }
   
   .footer-bottom {
@@ -210,8 +210,8 @@
     color: white;
     font-size: 1.0em;
     font-family: 'Lato', sans-serif;
-    position: relative; /* Ensure the footer bottom respects z-index */
-    z-index: 2; /* Ensure .footer-bottom is above other content */
+    position: relative; 
+    z-index: 2; 
     margin-top: 20px;
   }
 
