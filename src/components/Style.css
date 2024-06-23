@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.navbar-custom {
+    background-color: black;
+}
+
+.navbar-custom .nav-link {
+    color: white;
+    margin-right: 20px;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #e0b0ff; 
+}
+
+.navbar-custom .navbar-brand {
+    color: whitesmoke;
+    font-size: 20px;
+}
+.navbar-custom .navbar-brand:hover {
+    color: whitesmoke;
+}
+.photo-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden; 
+}
+
+.photo-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 93%;
+    background-image: url('../images/home.png');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);    
+    z-index: -1; 
+}
+
+.photo {    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: -10%;
+    border: 2px solid white; 
+}
+
+.photo-description {
+    margin-top: 20px; 
+    font-size: 40px; 
+    font-family: 'Lato';
+    color: white;
+    
+}
+.name {
+    font-size: 40px;
+    font-family: 'Lato';
+}
+.more {
+    font-size: 20px;
+    margin-top: -10px;
+}
+.description {
+    padding-left: 100px;
+    padding-bottom: 50px;
+    font-family: 'Lato';
+    font-size: 180%;
+    font-weight: 390;
+}
+.portfolio {
+    position: relative;
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 2.2em;
+    font-weight: 500;
+    font-family: 'Cinzel';
+    overflow: hidden; 
+}
+.portfolio::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;    
+    z-index: -1;
+}
+.bg{
+  padding: 4%;
+  background-color: #d9d9d9;
+  background-size: cover;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-content: center;
+    margin-left: 90px;
+
+}
+.card {
+  background-color: #ffffff;
+  width: 28%;
+  padding: 30px;
+  margin: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #222;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content {
+  font-size: 1rem;
+  text-align: justify;
+  padding: 4px;
+  margin-top: 4px;
+}
+
+.content a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.content a:hover {
+  background-color: #f0f0f0;
+  border-color: #FF4500;
+  color: #000000;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    filter: brightness(90%);
+    color: white;
+    position: relative; /* Ensure the footer is a positioned container */
+    z-index: 1; /* Ensure footer content is above background image */
+  }
+  
+  .contact-info,
+  .shortcuts {
+    flex: 1 1 45%; /* Adjust width as needed */
+    text-align: center;
+  }
+  
+  .footer-heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem; /* 150% of the default font size */
+    margin-bottom: 10px;
+  }
+  
+  .footer-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #e0b0ff; /* Light purple color on hover */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #222;
+    color: white;
+    font-size: 1.0em;
+    font-family: 'Lato', sans-serif;
+    position: relative; /* Ensure the footer bottom respects z-index */
+    z-index: 2; /* Ensure .footer-bottom is above other content */
+    margin-top: 20px;
+  }
+
+  .certificates {
+    background-color: #222;
+    color: white;
+    padding: 40px;
+  }
+  
+  .card1{
+    width: 30%;
+    padding: 20px;
+    background-color: #222;
+  }
+  .cert-info {
+    text-align: justify;
+    color: white;
+  }
+  .info p{
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: justify;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    font-size: 1.25em;
+
+  }
+  
+  
