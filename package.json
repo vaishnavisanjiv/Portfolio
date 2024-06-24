@@ -6,22 +6,23 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",  // Add this line to define the deploy script
-    "preview": "vite preview"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@vitejs/plugin-react": "^3.1.0"
-    // Add any other dependencies your project requires
+    "react-router-dom": "^6.23.1",
+    "react-scroll": "^1.9.0"
   },
   "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
     "vite": "^4.1.0",
     "gh-pages": "^5.0.0"
-    // Add any other dev dependencies your project requires
   },
-  "homepage": "https://vaishnavisanjiv.github.io/Portfolio/"  // Adjust to your GitHub Pages URL
+  "homepage": "https://vaishnavisanjiv.github.io/Portfolio/"
 }
-
-
