@@ -3,7 +3,7 @@ import instagram from "../images/instagram.png";
 import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
 import React, { useState } from "react";
-import blog from "../images/blog.png";
+import blog from "../images/blog.webp";
 import cert1 from "../images/certificates/cert1.jpg";
 import cert2 from "../images/certificates/cert2.jpg";
 import cert3 from "../images/certificates/cert3.jpg";
