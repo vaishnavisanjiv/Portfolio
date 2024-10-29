@@ -25,6 +25,13 @@ function Header() {
                 Home
               </a>
             </li>
+
+            <li className="nav-item">
+              <a href="#skills" className="nav-link">
+                Skills
+              </a>
+            </li>
+
             <li className="nav-item">
               <a href="#projects" className="nav-link">
                 Projects
@@ -32,12 +39,7 @@ function Header() {
             </li>
 
             <li className="nav-item">
-              <a href="#blog" className="nav-link">
-                Blog
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#certificates" className="nav-link">
+              <a href="#certs" className="nav-link">
                 Certificates
               </a>
             </li>

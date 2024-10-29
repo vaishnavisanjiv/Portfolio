@@ -3,7 +3,7 @@
 
 
 .navbar-custom {
-    background-color: black;
+    background-image: url('../images/background.png');;
 }
 
 .navbar-custom .nav-link {
@@ -22,6 +22,16 @@
 .navbar-custom .navbar-brand:hover {
     color: whitesmoke;
 }
+.astronaut {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: auto;
+  opacity: 0.4; /* Adjust transparency */
+  transition: opacity 0.5s ease; /* Smooth fade effect */
+}
+
 .photo-container {
     position: relative;
     width: 100%;
@@ -61,7 +71,7 @@
 .photo-description {
     margin-top: 20px; 
     font-size: 40px; 
-    font-family: 'Lato';
+    font-family: 'SF Pro Display';
     color: white;
     
 }
@@ -93,7 +103,7 @@
     text-shadow: 2px 2px black;
     font-size: 2.2em;
     font-weight: 500;
-    font-family: 'Cinzel';
+    font-family: 'Lato';
     overflow: hidden; 
 }
 .portfolio::before{
@@ -187,7 +197,7 @@
   }
   
   .footer-heading {
-    font-family: 'Lato', sans-serif;
+    font-family: 'SF Pro Display';
     font-size: 1.5rem; 
     margin-bottom: 10px;
   }
@@ -209,7 +219,7 @@
     background-color: #222;
     color: white;
     font-size: 1.0em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'SF Pro Display';
     position: relative; 
     z-index: 2; 
     margin-top: 20px;
@@ -235,7 +245,7 @@
     padding: 10px;
     width: 100%;
     text-align: justify;
-    font-family: "Josefin Sans";
+    font-family: 'SF Pro Display';
     font-weight: 300;
     font-size: 1.25em;
 
