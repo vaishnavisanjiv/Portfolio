@@ -1,3 +1,4 @@
 # Personal-Portfolio
 
-Site Live at : https://vaishnavisanjiv.github.io/Portfolio/
+This Personal Portfolio Website focuses on my Interest, Skills, Projects and Certificates<br>
+Feel free to get in touch!
