@@ -4,17 +4,7 @@ import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
 import React, { useState } from "react";
 import blog from "../images/blog.png";
-import cert1 from "../images/certificates/cert1.jpg";
-import cert2 from "../images/certificates/cert2.jpg";
-import cert3 from "../images/certificates/cert3.jpg";
-import cert4 from "../images/certificates/cert4.jpg";
-import cert5 from "../images/certificates/cert5.jpg";
-import cert6 from "../images/certificates/cert6.jpg";
-import cert7 from "../images/certificates/cert7.jpg";
-import cert8 from "../images/certificates/cert8.jpg";
 import "./Style.css";
-
-const certificates = [cert1, cert2, cert3, cert4, cert5, cert6, cert7, cert8];
 
 function Content() {
   return (
@@ -270,94 +260,6 @@ function Content() {
                 anticipation meets analysis—a journey marked by exhilaration and
                 boundless discovery.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="certificates">
-        <div style={{ backgroundColor: "black" }}>
-          <p
-            style={{
-              fontFamily: "Josefin Sans",
-              fontSize: "2.0em",
-              textAlign: "center",
-              fontWeight: "600",
-              color: "white",
-              padding: "30px",
-              paddingTop: "60px",
-              paddingBottom: "-30px",
-            }}
-          >
-            Certificates
-          </p>
-          <div
-            className="carousel"
-            style={{
-              width: "80%",
-              paddingLeft: "10%",
-              paddingRight: "10%",
-              marginTop: "-29px",
-              paddingBottom: "9%",
-              marginLeft: "10%",
-              marginRight: "10%",
-            }}
-          >
-            <div id="carouselExampleCaptions" className="carousel slide">
-              <div className="carousel-indicators">
-                {certificates.map((_, index) => (
-                  <button
-                    key={index}
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to={index}
-                    className={index === 0 ? "active" : ""}
-                    aria-current={index === 0 ? "true" : "false"}
-                    aria-label={`Slide ${index + 1}`}
-                  />
-                ))}
-              </div>
-              <div className="carousel-inner">
-                {certificates.map((cert, index) => (
-                  <div
-                    key={index}
-                    className={`carousel-item ${index === 0 ? "active" : ""}`}
-                    style={{ height: "80vh" }}
-                  >
-                    <img
-                      src={cert}
-                      className="d-block w-100"
-                      alt={`Slide ${index + 1}`}
-                      style={{ objectFit: "cover", height: "100%" }}
-                    />
-                  </div>
-                ))}
-              </div>
-              <button
-                className="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev"
-                style={{ filter: "invert(1)" }}
-              >
-                <span
-                  className="carousel-control-prev-icon"
-                  aria-hidden="true"
-                />
-                <span className="visually-hidden">Previous</span>
-              </button>
-              <button
-                className="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next"
-                style={{ filter: "invert(1)" }}
-              >
-                <span
-                  className="carousel-control-next-icon"
-                  aria-hidden="true"
-                />
-                <span className="visually-hidden">Next</span>
-              </button>
             </div>
           </div>
         </div>
