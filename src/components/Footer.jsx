@@ -34,16 +34,16 @@ function Footer() {
           Home
         </a>
         <br />
+        <a href="#skills" className="footer-link">
+          Skills
+        </a>
+        <br />
         <a href="#projects" className="footer-link">
           Projects
         </a>
         <br />
-        <a href="#certificates" className="footer-link">
-          Certificates
-        </a>
-        <br />
-        <a href="#blog" className="footer-link">
-          Blog
+        <a href="#about" className="footer-link">
+          About
         </a>
       </div>
 

@@ -39,8 +39,8 @@ function Header() {
             </li>
 
             <li className="nav-item">
-              <a href="#certs" className="nav-link">
-                Certificates
+              <a href="#about" className="nav-link">
+                About
               </a>
             </li>
           </ul>
