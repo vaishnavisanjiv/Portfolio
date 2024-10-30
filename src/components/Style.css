@@ -27,15 +27,14 @@
   right: 0;
   width: 30%;
   height: auto;
-  opacity: 0.4; /* Adjust transparency */
-  transition: opacity 0.5s ease, transform 0.3s ease; /* Smooth fade and movement */
+  opacity: 0.4; 
+  transition: opacity 0.5s ease, transform 0.3s ease; 
 }
 
 .astronaut:hover {
-  opacity: 0.8; /* Increase opacity on hover */
-  transform: translateY(-10px); /* Move the astronaut up by 10 pixels */
+  opacity: 0.8; 
+  transform: translateY(-10px); 
 }
-
 
 .photo-container {
     position: relative;
@@ -100,14 +99,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px; /* Space between circles */
+  gap: 20px;
   padding: 4%;
 }
 
 .circle-item {
   position: relative;
   display: inline-block;
-  width: 13%; /* Base size */
+  width: 13%;
   height: auto;
 }
 
@@ -119,7 +118,7 @@
 }
 .circle:hover {
   box-shadow: 0 0 15px rgba(238, 230, 230, 0.5), 0 0 30px rgba(255, 255, 255, 0.3); 
-  transform: translateY(-6px);/* Whitish glow effect with reduced opacity */
+  transform: translateY(-6px);
 }
 
 
@@ -136,7 +135,7 @@
 
 @media (max-width: 900px) {
   .circle-item {
-    width: 80px; /* Adjust size on smaller screens */
+    width: 80px; 
     height: 80px;
   }
   
@@ -149,7 +148,7 @@
 
 @media (max-width: 480px) {
   .circle-item {
-    width: 60px; /* Further adjust for small screens */
+    width: 60px; 
     height: 60px;
   }
   
@@ -163,27 +162,26 @@
 
 .bg {
   padding: 4%;
-  background-color: #000000; /* Fallback color */
+  background-color: #000000;
   background-image: url('../images/bg.png'); 
-  background-size: cover; /* Adjusts the background image to cover the entire container */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
-
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
   align-content: center;
-  justify-content: center; /* Center align cards horizontally */
-  margin-left: 0; /* Remove left margin for better alignment */
+  justify-content: center; 
+  margin-left: 0;
   margin-top: 6%;
 }
 
 .card {
   background-color: #ffffff;
-  width: 28%; /* Base width for larger screens */
+  width: 28%; 
   padding: 30px;
   margin: 20px;
   margin-bottom: 30px;
@@ -226,20 +224,18 @@
   color: #000000;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 1024px) {
   .card {
-      width: 45%; /* 2 cards per row on medium screens */
+      width: 45%;
   }
 }
 
 @media (max-width: 768px) {
   .card {
-      width: 100%; /* Full width on small screens */
-      margin: 10px 0; /* Vertical margin for spacing */
+      width: 100%; 
+      margin: 10px 0; 
   }
 }
-
 
 .footer {
     display: flex;
@@ -289,7 +285,6 @@
     z-index: 2; 
     margin-top: 20px;
   }
-
   
   .card1{
     width: 30%;
@@ -313,26 +308,26 @@
   .typing-effect {
     display: inline-block;
     font-size: 5vh;
-    border-right: 2px solid white; /* Cursor effect */
-    white-space: nowrap; /* Prevent line breaks */
-    overflow: hidden; /* Hide the text that is not yet revealed */
-    animation: typing 1s steps(15, end), blink-caret 0.75s step-end 1; /* Run blink-caret only once */
-    font-weight: bold; /* Make text bold */
-    color: white; /* Change text color to white */
+    border-right: 2px solid white; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: typing 1s steps(15, end), blink-caret 0.75s step-end 1; 
+    font-weight: bold;
+    color: white; 
 }
 
 @keyframes typing {
     from {
-        width: 0; /* Start from 0 width */
+        width: 0; 
     }
     to {
-        width: 11%; /* End at full width */
+        width: 11%; 
     }
 }
 
 @keyframes blink-caret {
     50% {
-        border-color: transparent; /* Make the cursor invisible */
+        border-color: transparent; 
     }
 }
 
