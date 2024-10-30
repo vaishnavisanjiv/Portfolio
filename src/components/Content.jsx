@@ -230,7 +230,7 @@ function Content() {
                 height: "auto",
                 marginRight: "2%",
                 marginTop: "5%",
-                opacity: "0.2", // Adjust opacity as needed
+                opacity: "0.2", 
               }}
             />
             <span className="typing-effect">About Me!</span>
